@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUNDIAL QATAR 2022</title>
+    <style>
+        .LOGO{
+            background-position: center;
+            background-attachment: fixed;
+            background-size: 100%;
+        }
+        .TITULO{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 100px;
+            color: red;
+            border: 5px solid rgb(6, 5, 5);
+            border-radius: 60px;
+            box-shadow: inset 0 0 10px red, 0 0 5px;
+            text-shadow:0 0 10px #050505,0 0 10px #050505,0 0 10px #050505;
+            animation: parpadear 2s infinite backwards;
+        }
+        @keyframes parpadear{
+            to{
+                color: rgb(219, 247, 5);
+            }
+        }
+        .TITU{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 40px;
+            color: rgb(250, 250, 250); 
+        }
+        .row{
+            width: 400px;
+            background-color: rgb(251, 251, 7);
+            padding: 30px;
+            margin: auto;
+            margin-top: 100px;
+            border-radius: 4px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(10, 10, 9);
+            box-shadow:7px 13px 37px #070707;
+        }
+        .rows{
+            width: 400px;
+            background-color: rgb(248, 134, 4);
+            padding: 30px;
+            margin: auto;
+            margin-top: 100px;
+            border-radius: 4px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(10, 10, 9);
+            box-shadow:7px 13px 37px #070707;
+
+        }
+        .form-control{
+            width: 100%;
+            background: #06f652;
+            padding: 10px;
+            border: 2px solid #f90b0b;
+            margin-bottom: 16px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            
+        }
+        .form-label{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+        .boton{
+            width: 100%;
+            background-color: #0bd5f9;
+            border: none;
+            padding: 12px;
+            font-size: 16px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .TI{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 40px;
+            color: rgb(252, 246, 246); 
+            text-shadow:0 0 10px #e4f804,0 0 10px #e4f804;
+        }
+        .btn{
+            display: inline-block;
+            background-color: #eff3f0;
+            padding: 15px 95px;
+            text-decoration: none;
+            color: #070707;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+        .btn:hover{
+            box-shadow: 0 0 10px white,
+                        0 0 30px white,
+                        0 0 70px white,
+                        0 0 130px white;
+        }
+    </style>
+</head>
+<BODY bgcolor="BLUE" class="LOGO"> 
+    <H1 ALIGN="CENTER"class="TITULO">MUNDIAL QATAR 2022</H1>
+    <marquee behavior="" direction="UP" scrollamount="4">
+    <h1 class="TITU">LE DAMOS LA BIENVENIDA A NUESTRA PAGINA DEL MUNDIAL QATAR</h1>
+    </marquee>
+    <H1 align="center"class="rows">FORMULARIO DE REGISTRO</H1>
+    <div class="conteiner">
+        <form class="row">
+            <div class="col-6">
+                <label for="nombre" class="form-label">NOMBRE</label>
+                <input type="nombre" class="form-control"id="nombre" placeholder="ESCRIBE TU NOMBRE">
+            </div><BR>
+            <div class="col-6">
+                <label for="nombre" class="form-label">APELLIDO</label>
+                <input type="nombre" class="form-control"id="nombre" placeholder="ESCRIBE TU APELLIDO">
+            </div><BR>
+            <div class="col-6">
+                <label for="emailInput" class="form-label">CORREO</label>
+                <input type="email" class="form-control"id="emailInput" placeholder="ESCRIBE TU CORREO">
+            </div><BR>
+            <div class="col-6">
+                <label for="inputPass" class="form-label">CONTRASEÑA</label>
+                <input type="password" class="form-control"id="inputPass" placeholder="ESCRIBE TU CONTRASEÑA">
+            </div><BR>
+            <div class="col-6">
+                <label for="telefono" class="form-label">TELEFONO</label>
+                <input type="number" class="form-control"id="telefono" placeholder="ESCRIBE TU TELEFONO">
+            </div><BR>
+                <div class="col-6">
+                    <input type="submit" class="boton" value="REGISTRARSE">
+                </div><BR>
+
+        </form>
+    </div>
+    <BR><br>
+    <H1 class="TI" ALIGN="CENTER">CANCION OFICIAL DEL MUNDIAL QATAR</H1>
+    <p align="center">
+    <video autoplay controls src="D:\PAGINA HTML\VIDEO/HAYYA.MP4" alt=""width="600"height="500"></video>
+    </p>
+    <H1 class="TI" ALIGN="CENTER">CANCION OFICIAL DEL MUNDIAL RUSIA</H1>
+    <p align="center">
+    <video autoplay controls src="D:\PAGINA HTML\VIDEO/LIVE.MP4" alt=""width="600"height="500"></video>
+    </p>
+    <H1 class="TI" ALIGN="CENTER">CANCION OFICIAL DEL MUNDIAL BRASIL</H1>
+    <p align="center">
+    <video autoplay controls src="D:\PAGINA HTML\VIDEO/WE ARE.MP4" alt=""width="600"height="500"></video>
+    </p>
+    <H1 class="TI" ALIGN="CENTER">CANCION OFICIAL DEL MUNDIAL SUDAFRICA</H1>
+    <p align="center">
+    <video autoplay controls src="D:\PAGINA HTML\VIDEO/WAKA.MP4" alt=""width="600"height="500"></video>
+    </p>
+    <h2 class="TI">PRESIONA EL BOTON PARA INGRESAR A LA INFORMACION DE SU SELECCION DE FUTBOL</h2>
+    <A class="btn" href="equipos/ARGENTINA.HTML">ARGENTINA</A>
+    <A class="btn" href="equipos/ARABIA.html">ARABIA SAUDITA</A>
+    <A class="btn" href="equipos/ALEMANIA.HTML">ALEMANIA</A>
+    <A class="btn" href="equipos/AUSTRALIA.html">AUSTRALIA</A><BR><BR><BR>
+    <A class="btn" href="equipos/BRASIL.HTML">BRASIL</A>
+    <A class="btn" href="equipos/BELGICA.html">BELGICA</A>
+    <A class="btn" href="equipos/COREA.html">COREA DEL SUR</A>
+    <A class="btn" href="equipos/CAMERUN.html">CAMERUN</A><BR><BR><BR>
+    <A class="btn" href="equipos/COSTA RICA.html">COSTA RICA</A>
+    <A class="btn" href="equipos/CROACIA.html">CROACIA</A>
+    <A class="btn" href="equipos/CANADA.html">CANADA</A>
+    <A class="btn" href="equipos/DINAMARCA.html">DINAMARCA</A><BR><BR><BR>
+    <A class="btn" href="equipos/ECUADOR.html">ECUADOR</A>
+    <A class="btn" href="equipos/ESPAÑA.html">ESPAÑA</A>
+    <A class="btn" href="equipos/USA.html">ESTADOS UNIDOS</A>
+    <A class="btn" href="equipos/FRANCIA.html">FRANCIA</A><BR><BR><BR>
+    <A class="btn" href="equipos/GHANA.HTML">GHANA</A>
+    <A class="btn" href="equipos/GALES.html"> GALES</A>
+    <A class="btn" href="HOLANDA.html">HOLANDA</A>
+    <A class="btn" href="equipos/IRAN.html">IRAN</A><BR><BR><BR>
+    <A class="btn" href="equipos/INGLATERRA.html">INGLATERRA</A>
+    <A class="btn" href="equipos/JAPON.html">JAPON</A>
+    <A class="btn" href="equipos/MEXICO.html">MEXICO</A>
+    <A class="btn" href="equipos/MARRUECOS.html">MARRUECOS</A><BR><BR><BR>
+    <A class="btn" href="equipos/PORTUGAL.html">PORTUGAL</A>
+    <A class="btn" href="equipos/POLONIA.html">POLONIA</A>
+    <A class="btn" href="equipos/QATAR.html">QATAR</A>
+    <A class="btn" href="equipos/SENEGAL.HTML">SENEGAL</A><BR><BR><BR>
+    <A class="btn" href="equipos/SUIZA.html">SUIZA</A>
+    <A class="btn" href="equipos/SERBIA.html">SERBIA</A>
+    <A class="btn" href="equipos/TUNEZ.html">TUNEZ</A>
+    <A class="btn" href="equipos/URUGUAY.html">URUGUAY</A>
+    <marquee behavior="" direction="">
+        <img src="D:\PAGINA HTML/equipos/BA1.GIF" alt=""width="150" height="150">
+    </marquee>
+
+    
+</BODY>
